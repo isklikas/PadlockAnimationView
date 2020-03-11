@@ -7,8 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LockView.h"
 
 @interface ViewController : UIViewController
+
+@property LockView *lockView;
+@property UISlider *slider;
+@property UILabel *sliderLabel;
+@property CGFloat currentProgress;
 
 
 @end

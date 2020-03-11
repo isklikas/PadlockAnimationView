@@ -14,6 +14,8 @@
 		0E617FD324187D8700C28425 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E617FD224187D8700C28425 /* Assets.xcassets */; };
 		0E617FD624187D8700C28425 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E617FD424187D8700C28425 /* LaunchScreen.storyboard */; };
 		0E617FD924187D8700C28425 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E617FD824187D8700C28425 /* main.m */; };
+		0E617FE124187DC700C28425 /* LockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E617FE024187DC700C28425 /* LockView.m */; };
+		0E617FE424187DE200C28425 /* LockViewAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E617FE324187DE200C28425 /* LockViewAnimator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		0E617FD524187D8700C28425 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E617FD724187D8700C28425 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E617FD824187D8700C28425 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E617FDF24187DC700C28425 /* LockView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LockView.h; sourceTree = "<group>"; };
+		0E617FE024187DC700C28425 /* LockView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LockView.m; sourceTree = "<group>"; };
+		0E617FE224187DE200C28425 /* LockViewAnimator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LockViewAnimator.h; sourceTree = "<group>"; };
+		0E617FE324187DE200C28425 /* LockViewAnimator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LockViewAnimator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,10 @@
 				0E617FCA24187D8000C28425 /* SceneDelegate.m */,
 				0E617FCC24187D8000C28425 /* ViewController.h */,
 				0E617FCD24187D8000C28425 /* ViewController.m */,
+				0E617FDF24187DC700C28425 /* LockView.h */,
+				0E617FE024187DC700C28425 /* LockView.m */,
+				0E617FE224187DE200C28425 /* LockViewAnimator.h */,
+				0E617FE324187DE200C28425 /* LockViewAnimator.m */,
 				0E617FCF24187D8000C28425 /* Main.storyboard */,
 				0E617FD224187D8700C28425 /* Assets.xcassets */,
 				0E617FD424187D8700C28425 /* LaunchScreen.storyboard */,
@@ -147,8 +157,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E617FCE24187D8000C28425 /* ViewController.m in Sources */,
+				0E617FE124187DC700C28425 /* LockView.m in Sources */,
 				0E617FC824187D8000C28425 /* AppDelegate.m in Sources */,
 				0E617FD924187D8700C28425 /* main.m in Sources */,
+				0E617FE424187DE200C28425 /* LockViewAnimator.m in Sources */,
 				0E617FCB24187D8000C28425 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
